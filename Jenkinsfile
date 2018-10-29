@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean'
+                sh 'git clone https://github.com/chenjianAgain/maven-project'
             }
         }
 
