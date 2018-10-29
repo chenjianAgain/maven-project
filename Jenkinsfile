@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'git clone https://github.com/chenjianAgain/maven-project'
             }
         }
         stage('Test') {
